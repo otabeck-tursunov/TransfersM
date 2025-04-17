@@ -51,3 +51,7 @@ class Transfer(models.Model):
 
     def __str__(self):
         return f"{self.player.name} -> {self.old_club.name} -> {self.new_club.name}"
+
+
+
+
